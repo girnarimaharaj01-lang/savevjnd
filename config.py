@@ -9,7 +9,7 @@ LOGIN_SYSTEM = bool(os.environ.get('LOGIN_SYSTEM', True)) # True or False
 
 if LOGIN_SYSTEM == False:
     # if login system is False then fill your tg account session below 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "-1001185214171")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "8399557684")
 else:
     STRING_SESSION = None
 
@@ -28,7 +28,7 @@ ADMINS = int(os.environ.get("ADMINS", "8399557684"))
 # Your Channel Id In Which Bot Upload Downloaded Video/File/Message etc.
 # And Make Your Bot Admin In this channel with full rights.
 # if you don't want to upload in channel then leave it blank don't fill anything.
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1001185214171")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "8399557684")
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
